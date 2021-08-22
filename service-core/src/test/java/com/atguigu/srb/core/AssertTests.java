@@ -21,6 +21,7 @@ public class AssertTests {
     public void test2() {
         Object o = null;
         Assert.notNull(o, "参数错误");
+
     }
 }
 
