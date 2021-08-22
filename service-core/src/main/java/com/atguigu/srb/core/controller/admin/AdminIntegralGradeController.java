@@ -73,6 +73,7 @@ public class AdminIntegralGradeController {
         boolean result = integralGradeService.save(integralGrade);
         if (result) {
             return R.ok().message("保存成功");
+            
         } else {
             return R.error().message("保存失败");
         }
